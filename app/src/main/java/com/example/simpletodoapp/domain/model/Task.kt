@@ -9,7 +9,7 @@ data class Task (
     val name:String,
     val completion:Boolean,
     val hasSubTask:Boolean,
-    var subTasks: List<SubTask>,
+    val subTasks: List<SubTask>,
     val taskId: String,
     val id:Int? = null
 ):Parcelable
